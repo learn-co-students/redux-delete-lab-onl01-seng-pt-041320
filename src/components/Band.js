@@ -8,7 +8,7 @@ class Band extends Component {
     return (
       <div>
         <li>{this.props.name}</li>
-        <button onClick={this.handleOnClick}>X</button>
+        <button onClick={this.handleOnClick}>XX</button>
       </div>
     );
   }
